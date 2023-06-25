@@ -39,7 +39,7 @@ class _GameBoardState extends State<GameBoard> {
   // A list of black pieces that have been taken by white pieces
   List<ChessPiece?> blackKilledPieces = [];
 
-  // A boolen to indicate whose turn it is
+  // A boolen to indicate whose turn it i
   bool isWhiteTurn = true;
 
   @override

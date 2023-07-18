@@ -25,11 +25,11 @@ class Square extends StatelessWidget {
     if (isSelected) {
       selectedColor = Colors.green;
     }
-    // if is valid move
+    // if is valid move, borders will be green
     else if (isValidMove) {
       selectedColor = Colors.greenAccent;
     }
-    // otherwise, its white or black
+    // otherwise, square will be white or black
     else {
       selectedColor = (isWhite ? Colors.purple[100] : Colors.purple[300])!;
     }

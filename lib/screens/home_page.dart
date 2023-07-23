@@ -600,7 +600,7 @@ class _GameBoardState extends State<GameBoard> {
     return true;
   }
 
-// RESET FOR NEW GAME
+// RESET FOR NEW GAME4
   void resetGame() {
     Navigator.pop(context);
     _initializeBoard();
